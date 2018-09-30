@@ -12,9 +12,12 @@ function puppyFactory(name, breed,age) {
     }
   }
   
+
   const donut = puppyFactory('donut', 'bulldog',3);//does not use Object.create();
   
   console.log(donut);
 
   donut.sleep();
   donut.bark();
+
+  

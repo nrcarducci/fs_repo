@@ -1,5 +1,5 @@
 // YOUR CODE BELOW
-function Jedi(firstName,lastName,ligthsaber,level)
+function Jedi(firstName,lastName,ligthsaber,level)//no return for this is a constructor function
 {
 	this.firstName=firstName;
   this.lastName=lastName;
@@ -8,9 +8,11 @@ function Jedi(firstName,lastName,ligthsaber,level)
   
 }
 
-const lukeSkywalker = new Jedi("Luke","Skywalker",'Green',9000);
+const lukeSkywalker = new Jedi("Luke","Skywalker",'Green',"Master");//adding new object
 
+const darthMaul = new Jedi("Darth","Maul","Red","Apprentice");
 console.log(lukeSkywalker);
+console.log(darthMaul);
 
 
 
